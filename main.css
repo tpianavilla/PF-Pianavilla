@@ -72,3 +72,8 @@ body {
     width: 100%;
     max-height: 37rem !important;
 }
+
+#texto {
+    margin: 15px !important;
+    
+}
