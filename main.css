@@ -1,0 +1,62 @@
+
+a {
+    text-decoration: none !important;
+    color: white !important;
+}
+body {
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    overflow-x: hidden;
+    background-color: #595959 !important;
+    color: white !important;
+    animation: fadeIn 2s ease;
+}
+
+@keyframes fadeIn 
+    {
+        0% { opacity: 0; filter: brightness(1) blur(20px) }
+        10% { opacity: 1; filter: brightness(2) blur(10px) }
+        100% { opacity: 1; filter: brightness(1) blur(0) }
+      }
+
+
+#menu li > a {
+    font-size: 18px;
+    font-weight: bold;
+    
+    
+}
+
+.carousel-inner {
+   max-height: 37rem;
+}
+
+@media (max-width:768px) {
+    #intro {
+        width:90% !important;
+    }
+    .tablas {
+        width: 100% !important;
+        text-align: center;
+    }
+}
+
+@media (max-width:576px) {
+ .wrapicon {
+    
+    justify-content: center !important;
+ }  
+}
+
+#contenedor-form {
+    align-items: center;
+    justify-content: center;
+    background-color: #595959;
+    border-radius: 5px;
+    
+}
+
+.animado {
+    animation: fadein;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+}
