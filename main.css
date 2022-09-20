@@ -11,22 +11,6 @@ body {
     animation: fadeIn 2s ease;
 }
 
-@keyframes fadeIn {
-    0% {
-        opacity: 0;
-        filter: brightness(1) blur(20px)
-    }
-
-    10% {
-        opacity: 1;
-        filter: brightness(2) blur(10px)
-    }
-
-    100% {
-        opacity: 1;
-        filter: brightness(1) blur(0)
-    }
-}
 
 
 #menu li>a {
@@ -40,24 +24,6 @@ body {
     max-height: 37rem;
 }
 
-@media (max-width:768px) {
-    #intro {
-        width: 90% !important;
-    }
-
-
-    .tablas {
-        width: 100% !important;
-        text-align: center;
-    }
-}
-
-@media (max-width:576px) {
-    .wrapicon {
-
-        justify-content: center !important;
-    }
-}
 
 #contenedor-form {
     align-items: center;
@@ -76,4 +42,38 @@ body {
 #texto {
     margin: 15px !important;
     
+}
+@media (max-width:768px) {
+    #intro {
+        width: 90% !important;
+    }
+
+
+    .tablas {
+        width: 100% !important;
+        text-align: center;
+    }
+}
+
+@media (max-width:576px) {
+    .wrapicon {
+
+        justify-content: center !important;
+    }
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        filter: brightness(1) blur(20px)
+    }
+
+    10% {
+        opacity: 1;
+        filter: brightness(2) blur(10px)
+    }
+
+    100% {
+        opacity: 1;
+        filter: brightness(1) blur(0)
+    }
 }
