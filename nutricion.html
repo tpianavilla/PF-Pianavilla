@@ -3,35 +3,37 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Lightweight</title>
-    <link rel="stylesheet" href="./main.css" />
+    <title>Lightweight - Nutricion</title>
+    <meta name="description"
+    content="Informacion y tips sobre entrenamiento y nutricion. Bases del entrenamiento en el gimnasio.">
+    <meta name="keywords" content="ENTRENAMIENTO, NUTRICION, FITNESS, PESAS, GIMNASIO, LIGHTWEIGHT, PRINCIPIANTES, CONSEJOS">
+    <link rel="icon" type="image/x-icon" href="./resources/dumbell.png">
+    <link rel="stylesheet" href="./css/styles.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
       crossorigin="anonymous"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&display=swap"
-      rel="stylesheet"
-    />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+      </style>
   </head>
-  <body class="animate__animated animate__fadeI">
-    <header class="bg-dark text-white d-flex align-items-center border-bottom">
+
+  <body class="bg-dark">
+    <header class="bg-dark text-white d-flex align-items-center justify-content-center border-bottom">
         <span
           ><a href="./index.html"
             ><img src="./resources/dumbell.png" alt="logo"></a
         ></span>
        <a href="index.html"><h1 class="p-3 fs-2">Lightweight</h1></a> 
       </header>
-
-    <section>
-        <nav class="navbar navbar-expand-lg bg-dark p-3" id="menu">
+<!--NAVBAR-->
+    <section class="d-flex align-items-center justify-content-center" id="contenedor-menu">
+        <nav class="navbar navbar-expand-lg bg-dark p-3">
           <div class="container-fluid">
             <a class="navbar-brand" href="index.html"
-              ><span class="text-light fs-5 fw-bold">Inicio</span></a
+              ><span class="text-light fs-5 fw-bold" id="inicio">Inicio</span></a
             >
             <button
               class="navbar-toggler"
@@ -66,6 +68,7 @@
           </div>
         </nav>
       </section>
+<!--CARRUSEL DE FOTOS-->
     <div
       id="carouselExampleControls"
       class="carousel slide"
@@ -113,11 +116,12 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
+<!--INTRODUCCION-->
     <section
-      class="w-75 mx-auto text-center text-white bg-dark pt-5"
+      class="w-75 mx-auto text-center text-white bg-dark border-bottom mb-4 pt-5"
       id="intro"
     >
-      <h1 class="p-3 fs-2">Nutricion</span></h1>
+      <h2 class="p-3 fs-2">Nutricion</span></h2>
       <span class="text-white pt-5 p-5 fs-6">
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab cum,
@@ -134,9 +138,10 @@
         </p>
       </span>
     </section>
+<!--CUERPO DEL ARTICULO-->
     <section class="container-fluid">
-        <div class="row w-75 mx-auto d-flex justify-content-around">
-          <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 wrapicon border-top pt-5">
+        <div class="row w-75 mx-auto d-flex justify-content-around" id="miniaturas">
+          <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 wrapicon pt-5">
             <img
               src="./resources/nutricionIcon.png"
               alt="nutricionIcon"
@@ -153,7 +158,7 @@
               laboriosam unde eveniet repudiandae quo dolores debitis deleniti.
             </p>
           </div>
-          <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 wrapicon border-top pt-5">
+          <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 wrapicon pt-5">
             <img
               src="./resources/nutricionIcon.png"
               alt="nutricionIcon"
@@ -211,7 +216,8 @@
       integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
       crossorigin="anonymous"
     ></script>
-    <footer class="w-100 d-flex align-items justify-content-around bg-dark">
+<!--FOOTER-->
+    <footer class="w-100 d-flex align-items justify-content-around bg-dark border-top">
 
         <p class="my-4">Icons made by Freepik from <a href="https://www.flaticon.com">www.flaticon.com</a></p>
         <div class="my-3">Developer: <a href="https://www.linkedin.com/in/tom%C3%A1s-pianavilla/" target="_blank"><img class="mx-1" src="./resources/linkedin-logo.png" alt="linkedin-logo" width="30%" height="40"></a></div>

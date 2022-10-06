@@ -3,35 +3,36 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Lightweight</title>
-    <link rel="stylesheet" href="./main.css" />
+    <title>Lightweight - Inicio</title>
+    <meta name="description"
+    content="Informacion y tips sobre entrenamiento y nutricion. Bases del entrenamiento en el gimnasio.">
+    <meta name="keywords" content="ENTRENAMIENTO, NUTRICION, FITNESS, PESAS, GIMNASIO, LIGHTWEIGHT, PRINCIPIANTES, CONSEJOS">
+    <link rel="icon" type="image/x-icon" href="./resources/dumbell.png">
+    <link rel="stylesheet" href="./css/styles.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
       crossorigin="anonymous"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&display=swap"
-      rel="stylesheet"
-    />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+      </style>
   </head>
-  <body>
-    <header class="bg-dark text-white d-flex align-items-center border-bottom">
+  <body class="bg-dark">
+    <header class="bg-dark d-flex align-items-center justify-content-center border-bottom">
       <span
         ><a href="./index.html"
           ><img src="./resources/dumbell.png" alt="logo" /></a
       ></span>
       <a href="index.html"><h1 class="p-3 fs-2">Lightweight</h1></a>
     </header>
-
-    <section>
-      <nav class="navbar navbar-expand-lg bg-dark p-3 text-center" id="menu">
+    <!--NAVBAR-->
+    <section class="d-flex align-items-center justify-content-center" id="contenedor-menu">
+      <nav class="navbar navbar-expand-lg bg-dark p-3 text-center">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html"
-            ><span class="text-light fs-5 fw-bold">Inicio</span></a
+            ><span class="text-light fw-bold p-2" id="inicio">Inicio</span></a
           >
           <button
             class="navbar-toggler"
@@ -68,6 +69,7 @@
           </div>
         </div>
       </nav>
+      <!--CARRUSEL DE FOTOS-->
     </section>
     <div
       id="carouselExampleControls"
@@ -116,13 +118,13 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
+    <!--INTRODUCCION-->
     <section
-      class="w-75 mx-auto text-center text-white bg-dark pt-5"
-      id="intro"
+      class="w-75 mx-auto text-center text-white bg-dark pt-5 border-bottom mb-4"
+      
     >
-      <h1 class="p-3 fs-2">¿Que es <span>Lightweight?</span></h1>
+      <h2 class="p-3 fs-2">¿Que es <span>Lightweight?</span></h2>
       <span id="texto" class="text-white pt-5 p-5 fs-6">
-        <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab cum,
           nesciunt nemo qui, temporibus consequuntur, soluta rerum quo numquam
           maiores odit. Et molestias sunt nobis, aperiam consequuntur dolore
@@ -137,10 +139,11 @@
         </p>
       </span>
     </section>
+    <!--ARTICULO PRINCIPAL-->
     <section class="container-fluid">
-      <div class="row w-75 mx-auto d-flex justify-content-around">
+      <div class="row w-75 mx-auto d-flex justify-content-around" id="miniaturas">
         <div
-          class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 wrapicon border-top pt-5"
+          class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 wrapicon  pt-5"
         >
           <img
             src="./resources/nutricionIcon.png"
@@ -159,7 +162,7 @@
           </p>
         </div>
         <div
-          class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 wrapicon border-top pt-5"
+          class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 wrapicon  pt-5"
         >
           <img
             src="./resources/entrenamientoIcon.png"
@@ -222,7 +225,8 @@
       integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
       crossorigin="anonymous"
     ></script>
-    <footer class="w-100 d-flex align-items justify-content-around bg-dark">
+    <!--FOOTER-->
+    <footer class="w-100 d-flex align-items justify-content-around bg-dark border-top">
       <p class="my-4">
         Icons made by Freepik from
         <a href="https://www.flaticon.com">www.flaticon.com</a>
